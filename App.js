@@ -1,8 +1,11 @@
 import * as React from 'react';
-import { Text } from "react-native";
+import { View } from 'react-native';
+import {Button, Text} from './src'
 
 export default function App(params) {
   return(
-    <Text>asd</Text>
+    <View>
+      
+    </View>
   )
 }
