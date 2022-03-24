@@ -1,7 +1,7 @@
 {
-  "name": "components",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-basic-comps",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -28,8 +28,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "dependencies": {
-    "babel-plugin-module-resolver": "^4.1.0"
   }
 }
