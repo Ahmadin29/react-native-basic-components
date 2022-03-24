@@ -54,12 +54,12 @@ This is roadmap for first components
 
 - [x] &nbsp; Text
 - [x] &nbsp; Button
+- [x] &nbsp; Divider
 - Avatar
 - Badge
 - BottomSheet
 - Card
 - CheckBox
-- Divider
 - Image
 - Input
 - ListItem
