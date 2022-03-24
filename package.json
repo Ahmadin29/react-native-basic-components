@@ -1,6 +1,6 @@
 {
   "name": "react-native-basic-comps",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
   "private": false,
   "description": "This package is react native basic component in one package, with easy to use customizable components",
   "keywords": [
@@ -22,7 +22,7 @@
   },
   "funding":{
     "type": "buymeacoffee",
-    "url": "https://www.buymeacoffee.com/ahmaddin.ui",
+    "url": "https://www.buymeacoffee.com/ahmaddin.ui"
   },
   "scripts": {
     "android": "react-native run-android",
