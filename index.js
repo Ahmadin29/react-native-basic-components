@@ -1,9 +1,7 @@
-/**
- * @format
- */
+import Text from './src/text';
+import Button from './src/button';
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
-
-AppRegistry.registerComponent(appName, () => App);
+export {
+    Text,
+    Button
+}
