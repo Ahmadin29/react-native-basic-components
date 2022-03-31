@@ -55,14 +55,15 @@ This is roadmap for first components
 - [x] &nbsp; Text
 - [x] &nbsp; Button
 - [x] &nbsp; Divider
-- Avatar
+- [x] &nbsp; Avatar
 - Badge
 - BottomSheet
 - Card
-- CheckBox
+- CheckBox / RadioButton
 - Image
 - Input
 - ListItem
+- Select
 
 Well you can make a request if you need some components :)
 
