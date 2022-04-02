@@ -30,6 +30,7 @@
     "preset": "react-native"
   },
   "dependencies": {
-    "babel-plugin-module-resolver": "^4.1.0"
+    "babel-plugin-module-resolver": "^4.1.0",
+    "react-native-elements": "^3.4.2"
   }
 }
