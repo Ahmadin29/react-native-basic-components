@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { KeyboardTypeOptions, TextInput, TextStyle, TouchableOpacity, View, ViewStyle } from 'react-native';
-import Text from "../Text";
+import Text from "../text";
 import Colors from "../config/colors";
 import { Icon } from 'react-native-elements';
 
@@ -35,7 +35,7 @@ export default function Input(props:InputProps) {
             props.containerStyle
         ]} >
             {
-                props.label && <Text style={[props.labelStyle,{}]} weight="Medium" color={focus ? "primary" : props.color ? props.color : "text"} size={10} >{props.label}</Text>
+                props.label && <Text style={[props.labelStyle,{}]} weight="Medium" color={focus ? Colors.primary : props.color ? props.color : Colors.text} size={10} >{props.label}</Text>
             }
             <View style={{
                 flexDirection:"row",
@@ -43,6 +43,15 @@ export default function Input(props:InputProps) {
                 borderBottomWidth:1,
                 borderBottomColor:focus ? Colors.primary : props.color ? Colors[props.color] : Colors.grey1,
             }} >
+                {props.icon &&
+                <View style={{
+                    padding:10,
+                    paddingHorizontal:0,
+                    marginRight:10,
+                    maxWidth:30,
+                }} >
+                    {props.icon}
+                </View>}
                 <TextInput
                     onChangeText={props.onChangeText}
                     value={props.value}
@@ -58,6 +67,7 @@ export default function Input(props:InputProps) {
                             flex:1,
                         }
                     ]}
+                    autoFocus
                     onFocus={()=>{
                         setFocus(true)
                     }}
