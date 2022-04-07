@@ -1,7 +1,29 @@
 {
-  "name": "components",
-  "version": "1.0.0-alpha.0.0.5",
+  "name": "react-native-basic-comps",
+  "version": "1.0.0-alpha.0.0.6",
   "private": false,
+  "description": "This package is react native basic component in one package, with easy to use customizable components",
+  "keywords": [
+    "react-native",
+    "react native components",
+    "UI Components",
+    "UI",
+    "Components",
+    "Basic Components",
+    "Basic",
+    "Javascript",
+    "React",
+    "React Native",
+    "React Native Basics Components"
+  ],
+  "author": {
+    "name": "Ahmad Saefudin",
+    "email":"ahmaddin211056@gmail.com"
+  },
+  "funding":{
+    "type": "buymeacoffee",
+    "url": "https://www.buymeacoffee.com/ahmaddin.ui"
+  },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -9,6 +31,7 @@
     "test": "jest",
     "lint": "eslint ."
   },
+  "homepage": "https://github.com/Ahmadin29/react-native-basic-components",
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
@@ -28,11 +51,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "dependencies": {
-    "babel-plugin-module-resolver": "^4.1.0",
-    "react-native-elements": "^3.4.2",
-    "react-native-raw-bottom-sheet": "^2.2.0",
-    "react-native-vector-icons": "^9.1.0"
   }
 }
